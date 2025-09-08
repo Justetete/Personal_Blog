@@ -6,13 +6,27 @@ server:
 
 spring:
   datasource:
-    driverClassName: com.mysql.cj.jdbc.Driver
-    name: my-blog-datasource
-    password: Just1996 # mysql data password
-    url: jdbc:mysql://localhost:3306/myblog_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=UTC
+    url: jdbc:mysql://mysql-db:3306/myblog_db?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
     username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
   servlet:
     multipart:
       max-file-size: 10MB
       max-request-size: 100MB
+
+  http:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+
+  messages:
+    encoding: UTF-8
+
+  thymeleaf:
+    encoding: UTF-8
+    mode: HTML
+    servlet:
+      content-type: text/html;charset=UTF-8
