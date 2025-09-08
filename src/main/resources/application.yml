@@ -8,8 +8,8 @@ spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     name: my-blog-datasource
-    password: 20040831lxq
-    url: jdbc:mysql://localhost:3306/myblog?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=UTC
+    password: Just1996 # mysql data password
+    url: jdbc:mysql://localhost:3306/myblog_db?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false&serverTimezone=UTC
     username: root
 
   servlet:

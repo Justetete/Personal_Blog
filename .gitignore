@@ -1,3 +1,43 @@
 .DS_Store
 
+# Maven 构建目录
+target/
+
+# IDEA 项目文件
 .idea/
+*.iml
+
+# 日志和缓存
+logs/
+.mvn/
+.gradle/
+
+aopalliance/
+asm/
+avalon-framework/
+backport-util-concurrent/
+ch/
+classworlds/
+com/
+commons-beanutils/
+commons-chain/
+commons-codec/
+commons-collections/
+commons-digester/
+commons-io/
+commons-lang/
+commons-logging/
+dom4j/
+io/
+jakarta/
+javax/
+junit/
+log4j/
+logkit/
+mysql/
+net/
+ognl/
+org/
+xml-apis/
+oro/
+target/
